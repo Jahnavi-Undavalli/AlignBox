@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elfster</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid  main-container">
+    <div class="pt-5 bg-container">
+      <div class="row justify-content-center ">
+        <div class="outer-container">
+          <h1 class="heading1">Elfster</h1>
+          <div class="bg-white inner-container">
+            <h1 class="heading">Start Your Secret Santa</h1>
+            <div class="d-flex align-items-center mb-4"></div>
+            <p class="paragraph">
+              Organize your Elfster exchange lickety-split. You'll be done in less than two minutes. Then get ready to exchange gifts! Already did this last year? <a href="#">Use your previous exchanges.</a>
+            </p>
+            <form id="elfster-form" class="mt-8">
+              <div class="form-group">
+                <h3 class="names-heading">Enter Names</h3>
+                <div class="mt-2 input-container">
+                  <label for="your-name" class="label-container">Your Name</label>
+                  <input id="your-name" placeholder="Enter Name" class="form-control" type="text" />
+                </div>
+                <div class="mt-4  radio-container">
+                  <div class="form-check">
+                    <input id="organizing-participating" class="form-check-input" type="radio" name="participation" />
+                    <label for="organizing-participating" class="form-check-label text-sm">I'm organizing and participating</label>
+                  </div>
+                  <div class="form-check">
+                    <input id="just-organizing" class="form-check-input" type="radio" name="participation" />
+                    <label for="just-organizing" class="form-check-label text-sm">I'm just organizing</label>
+                  </div>
+                </div>
+              </div>
+              <div class="input-container">
+                <h2 class="label-container">Add Your Friends</h2>
+                <p class="paragraph-container">
+                  Got a big group? <a href="#" class="text-blue-600 hover:underline">Click here.</a>
+                </p>
+                <div class="mt-2">
+                  <input placeholder="Enter Name 2" class="form-control" type="text" />
+                  <input placeholder="Enter Name 3" class="form-control mt-2" type="text" />
+                  <input placeholder="Enter Name 4" class="form-control mt-2" type="text" />
+                  <a href="#" class="paragraph-container">
+                    + Add more names?
+                  </a>
+                </div>
+              </div>
+              <button type="submit" class="started-button">
+                Get the Party Started ->
+              </button>
+              <p class="paragraph">
+                Don't fret! You can add more friends (or remove them) later, no sweat.
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="https://static.elfster.com/2024.301.1901.4627/apps/vue/static/images/ssg/hero-badge-desktop.png?813c9946089d36bda632" alt="Image 1" class="img-fluid mb-3">
+          <img src="https://static.elfster.com/2024.301.1901.4627/apps/vue/static/images/ssg/hero-badge-desktop-2.png?6f26ba0d4692775a0703" alt="Image 2" class="img-fluid1">
+        </div>
+      </div>
+      <div class="whole-bottom-container py-6 flex justify-between items-center">
+        <div class="bottom-container">
+          <div class="each-container flex items-center">
+            <img src="https://static.elfster.com/2024.301.1901.4627/apps/vue/static/images/ssg/handshake-heart.png?562d268950c488483ce5" class="each-image" />
+            <p class="text-white text-lg">Trusted by 33 million people</p>
+          </div>
+          <div class="verticle-line"></div> 
+          <div class="each-container flex items-center">
+            <img src="https://static.elfster.com/2024.301.1901.4627/apps/vue/static/images/landing/stars-group.png?e6a7c111a75eb388921e" class="each-image" />
+            <p class="text-white text-lg">4.9 stars | 234K ratings  </p>
+          </div>
+          <div class="verticle-line1"></div> 
+          <div class="each-container flex items-center">
+            <img src="https://static.elfster.com/2024.301.1901.4627/apps/vue/static/images/ssg/trophy.png?c40d5efc6fefa650d74c" class="each-image" />
+            <p class="text-white text-lg">#1 Secret Santa Generator </p>
+          </div>
+        </div>
+        <div class="bottom-content-container bg-white p-10">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-6 md:space-x-10 flex-col md:flex-row">
+              <div class="flex justify-center md:justify-start lg:w-full lg:flex-1">
+                <h1 class="text-4xl font-bold text-gray-900">elfster</h1>
+              </div>
+              <nav class="hidden md:flex space-x-10 nav-bar-items">
+                <a class="text-base font-medium text-black hover:text-gray-900 nav-item " href="#">About</a>
+                <a class="text-base font-medium text-gray-500 hover:text-gray-900 nav-item" href="#">Advertise with Us</a>
+                <a class="text-base font-medium text-gray-500 hover:text-gray-900 nav-item" href="#">Help</a>
+                <a class="text-base font-medium text-gray-500 hover:text-gray-900 nav-item" href="#">Tell a Friend</a>
+              </nav>
+            </div>
+          </div>
+          <div class="bg-white bottom-icons-container">
+            <div class=" bottom-icons-container1">
+              <div class="boxes-container">
+                <div class="small-cards flex row" data-v0-t="card">
+                  <span class="icon-heading">Follow on Social:</span>
+                  <i class="fab fa-instagram each-icon"></i>
+                  <i class="fab fa-twitter each-icon"></i>
+                  <i class="fab fa-facebook each-icon"></i>
+                  <i class="fab fa-youtube each-icon"></i>
+                </div>
+                <div class=" small-cards1 flex column" data-v0-t="card">
+                  <span class="icon-heading">Download the App:</span>
+                  <div class="flex ">
+                    <a href="https://apps.apple.com/us/app/elfster-2-0/id751594890" target="_blank" rel="nofollow noopener" class="Oppm6 oS2R8"></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.elfster.elfdroid" target="_blank" rel="nofollow noopener" class="Oppm6 _5q8uP"></a>
+                  </div>
+                </div>
+                <div class="flex column small-cards1" data-v0-t="card">
+                  <div> <span class="icon-heading">Sign Up for Gifts, Giveaways &amp; Good News!</span></div>
+                  <div class="flex column mt-3"> <input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 mb-2" placeholder="Enter Email" type="email">
+                    <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2">Go</button> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-container">
+            <span class="text-sm text-gray-500">© 2024 Elfster, Inc.</span>
+            <div class="flex  p-3">
+              <a class="text-sm text-gray-500 hover:text-gray-900" href="#">Privacy Policy</a>
+              <a class="text-sm text-gray-500 hover:text-gray-900" href="#">CA Privacy Rights</a>
+              <a class="text-sm text-gray-500 hover:text-gray-900" href="#">Terms Of Service</a>
+            </div>
+            <div class="flex items-center">
+              <span class="text-sm text-gray-500">USA</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-500"><path d="m6 9 6 6 6-6"></path></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
